@@ -20,6 +20,14 @@
     border: 1px solid rgb(122, 65, 16);
 }
 
+.tournament-entry.selected{
+    border: 1px solid rgb(243, 130, 29);
+}
+
+.tournament-entry.selected:hover{
+    border: 1px solid rgb(243, 130, 29);
+}
+
 .listing-entry-info{
     display: flex;
     flex-direction: row;

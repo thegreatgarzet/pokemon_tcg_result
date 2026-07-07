@@ -13,8 +13,23 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .decklist-display-playerdata{
     color: #8f9aa5;
+}
+
+@media (max-width: 700px) {
+  .decklist-display-header{
+    
+    flex-direction: column;
+    gap: 5px;
+}
+
+.decklist-display-playerdata{
+    color: #8f9aa5;
+    height: 35px;
+}
+
 }
 
 .decklist-display-playerdata b{
@@ -73,7 +88,7 @@
 .decklist-display-cardlist{
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    align-items: start;
     justify-content: center;
     gap:8px;
     padding-left: 10px;
@@ -85,6 +100,15 @@
     gap: 5px;
     grid-template-columns: repeat(8, minmax(0, 1fr));
 }
+
+@media (max-width: 700px) {
+  .decklist-display-images{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+}
+
 .display-images-child{
     width: 100%;
     aspect-ratio: 2.5/3.5;

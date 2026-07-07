@@ -1,5 +1,6 @@
 .card-image-display{
     display: flex;
+    position: relative;
 }
 .card-image-size{
     width: 100%;

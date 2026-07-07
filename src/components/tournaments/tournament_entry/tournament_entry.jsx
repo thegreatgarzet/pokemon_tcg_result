@@ -3,11 +3,11 @@ import './tournament_entry.css'
 import { LuCalendarDays } from "react-icons/lu";
 import { RxPeople } from "react-icons/rx";
 
-const TournamentEntry = ({tournament, handleTournamentSelected}) => {
+const TournamentEntry = ({tournament, handleTournamentSelected, currentTournament}) => {
     const [tournamentEntry, setTournamentEntry] = useState(tournament);
     const date = new Date(tournamentEntry.date);
   return (
-    <div className='tournament-entry' onClick={() => handleTournamentSelected(tournament)}>
+    <div className={`tournament-entry ${currentTournament? currentTournament.id === tournament.id ? 'selected': '' :''}`} onClick={() => handleTournamentSelected(tournament)}>
         <div className="listing-entry-title">
             <p>{tournamentEntry.name}</p>
         </div>

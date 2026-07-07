@@ -37,7 +37,13 @@
     width: 30%;
     min-width: 30%;
     white-space: nowrap;
-    padding-right: 8px;
+    padding-right: 6px;
     text-align: left;
     
+}
+
+@media (max-width: 700px) {
+  .card-entry-code{
+    padding-right: 14px;
+}
 }

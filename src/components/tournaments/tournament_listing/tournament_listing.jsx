@@ -4,7 +4,7 @@ import { LuActivity } from "react-icons/lu";
 import TournamentEntry from "../tournament_entry/tournament_entry"
 import TournamentEntryHeader from '../tournament_details/details_header/tournament_entry_header';
 
-const TournamentListing = ({tournaments, handleTournamentSelected, currentFilter}) => {
+const TournamentListing = ({tournaments, handleTournamentSelected, currentFilter, currentTournament}) => {
 
   return (
     <div className='tournament_listing'>
@@ -13,7 +13,7 @@ const TournamentListing = ({tournaments, handleTournamentSelected, currentFilter
         <p>TORNEIOS RECENTES: {tournaments ? tournaments.filter((entry) => entry.players >= currentFilter).length : "Carregando..."}</p>
       </div>
       {tournaments ? tournaments.filter((entry) => entry.players >= currentFilter).map((entry) =>(
-        <TournamentEntry key={entry.id} tournament={entry} handleTournamentSelected={handleTournamentSelected}/>
+        <TournamentEntry key={entry.id} tournament={entry} handleTournamentSelected={handleTournamentSelected} currentTournament={currentTournament}/>
       )) : <></>}
     </div>
   )

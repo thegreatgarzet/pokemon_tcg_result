@@ -4,7 +4,8 @@
     
     padding-bottom: 8px;
 
-    min-width: 30%;
+    width: 30%;
+    min-width: 130px;
     max-width: 33%;
     color: #8f9aa5;
     font-weight: bold;

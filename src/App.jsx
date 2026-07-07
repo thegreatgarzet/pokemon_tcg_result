@@ -83,7 +83,7 @@ function App() {
       <Header/>
       <Filter filter={sizeFilter} setFilter={setSizeFilter}/>
       <div className="tournament-display-area">
-        <TournamentListing tournaments={fetchedTournaments} handleTournamentSelected={handleTournamentSelected} currentFilter={sizeFilter}/>
+        <TournamentListing tournaments={fetchedTournaments} handleTournamentSelected={handleTournamentSelected} currentFilter={sizeFilter} currentTournament={selectedTournament}/>
         {!selectedTournament ? <EmptyTournament/>:<TournamentDetails tournamentDetails={selectedTournament}/>}
       </div>
     </div>

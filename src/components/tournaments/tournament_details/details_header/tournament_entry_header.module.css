@@ -31,7 +31,16 @@
 }
 
 .listing-entry-title{
-height: 35%;
+    height: 35%;
+}
+
+.listing-entry-title p{
+    min-width: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    text-align: left;
 }
 
 .tournament-format{
