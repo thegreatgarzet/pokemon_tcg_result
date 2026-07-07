@@ -61,7 +61,7 @@ const DecklistDisplay = ({player, openListLink}) => {
                 <button className={`viewtype-button ${viewType != "List"?'active':''}`} onClick={() => setViewType("Image")}><CiImageOn /> Imagem</button>
             </div>
             <div className="decklist-display-button-container">
-                <button className='decklist-display-button' onClick={()=> copyList()}><MdOutlineContentCopy/> Copiar Lista</button>
+                <button className='decklist-display-button' onClick={()=> copyList()}><MdOutlineContentCopy/> Copiar!</button>
                 <button className='decklist-display-button' onClick={() => openListLink()}><FaExternalLinkAlt/> Limitless</button>
             </div>
         </div>

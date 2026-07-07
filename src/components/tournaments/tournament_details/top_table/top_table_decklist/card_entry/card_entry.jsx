@@ -10,9 +10,7 @@ const CardEntry = ({cardInfo}) => {
         <div className="card-entry-name">
             <p>{cardInfo.name}</p>
         </div>
-        <div className="card-entry-code">
-            <p>{cardInfo.set} {cardInfo.number}</p>
-        </div>
+        <p className="card-entry-code">{cardInfo.set + " " + cardInfo.number}</p>
     </div>
   )
 }

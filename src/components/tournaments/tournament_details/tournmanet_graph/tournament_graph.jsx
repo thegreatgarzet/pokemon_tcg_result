@@ -30,7 +30,7 @@ const TournamentGraph = ({tournamentDetails}) => {
         }));
 
         setGraphInfo(chartData);
-    }, [])
+    }, [tournamentDetails])
 
     useEffect(() => {
         console.log(graphInfo);
