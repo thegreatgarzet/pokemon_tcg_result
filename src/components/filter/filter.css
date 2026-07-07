@@ -1,0 +1,53 @@
+.filter-body{
+    background-color: #0e1418;
+
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-self: center;
+    border-radius: 10px;
+    gap: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.players-icon{
+    width: 25px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.filter-buttons-container{
+    border-radius: 5px;
+    background-color: #192028;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.filter-button{
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    background-color: #192028;
+    /* background-color: rgb(243, 130, 29); */
+    padding-left: 7px;
+    padding-right: 7px;
+    min-width: 40px;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.filter-button.active{
+    background-color: rgb(243, 130, 29);
+    color: black;
+}
+
+.filter-button :hover{
+    color: rgba(255, 255, 255, 1);
+}

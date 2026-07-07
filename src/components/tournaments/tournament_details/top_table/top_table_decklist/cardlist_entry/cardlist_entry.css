@@ -1,0 +1,22 @@
+.cardlist-entry-body{
+    border: 1px solid #272f37;
+    border-radius: 10px;
+    
+    padding-bottom: 8px;
+
+    min-width: 30%;
+    max-width: 33%;
+    color: #8f9aa5;
+    font-weight: bold;
+
+    font-size: 13px;
+}
+
+.cardlist-entry-header{
+    padding-left: 10px;
+}
+
+.cardlist-entry-cards{
+    display: flex;
+    flex-direction: column;
+}

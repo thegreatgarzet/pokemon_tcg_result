@@ -1,0 +1,29 @@
+.top-table-container{
+    background-color: #0e1418;
+    border: 1px solid #272f37;
+
+    border-radius: 10px;
+    min-height: 20px;
+
+}
+
+.top-table-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+    
+    gap: 15px;
+    color: white;
+    font-weight: bold;
+
+    border-bottom: 1px solid #272f37;
+}
+
+.top-table-title-icon{
+    width: 20px;
+    height: 20px;
+
+    margin-left: 15px;
+}

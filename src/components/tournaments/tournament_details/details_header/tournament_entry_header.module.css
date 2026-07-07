@@ -1,0 +1,48 @@
+.tournament-entry{
+    background-color: #0e1418;
+    border: 1px solid #272f37;
+    
+    border-radius: 10px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 15px;
+    margin-top: 5px;
+
+    color: white;
+    font-weight: bold;
+}
+
+.listing-entry-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 65%;
+
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(124, 124, 124);
+
+    gap: 7px;
+}
+
+.listing-entry-title{
+height: 35%;
+}
+
+.tournament-format{
+    background-color: #192028;
+    border-radius: 10px;
+    height: 60%;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    display: flex;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+}

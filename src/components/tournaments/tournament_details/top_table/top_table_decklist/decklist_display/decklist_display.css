@@ -1,0 +1,91 @@
+.decklist-display-body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #272f37;
+}
+
+.decklist-display-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.decklist-display-playerdata{
+    color: #8f9aa5;
+}
+
+.decklist-display-playerdata b{
+    color: white;
+}
+
+.decklist-display-viewtype-container{
+    border-radius: 10px;
+    background-color: #192028;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border: 1px solid #272f37;
+}
+
+.viewtype-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.viewtype-button.active{
+    background-color: rgb(243, 130, 29);
+    color: black;
+}
+
+.decklist-display-button-container{
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.decklist-display-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #272f37;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    height: 30px;
+}
+
+.decklist-display-cardlist{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    gap:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.decklist-display-images{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.display-images-child{
+    width: 100%;
+    aspect-ratio: 2.5/3.5;
+}
