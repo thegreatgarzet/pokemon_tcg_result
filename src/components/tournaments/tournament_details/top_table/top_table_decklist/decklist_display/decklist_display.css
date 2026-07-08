@@ -105,6 +105,13 @@
   }
 }
 
+@media (max-width: 400px) {
+  .decklist-display-cardlist{
+    
+    flex-direction: column;
+  }
+}
+
 .decklist-display-images{
     display: grid;
     gap: 5px;

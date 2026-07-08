@@ -13,6 +13,14 @@
     font-size: 13px;
 }
 
+@media (max-width: 400px) {
+  .cardlist-entry-body{
+    
+    width: 90%;
+    
+  }
+}
+
 .cardlist-entry-header{
     padding-left: 10px;
 }
