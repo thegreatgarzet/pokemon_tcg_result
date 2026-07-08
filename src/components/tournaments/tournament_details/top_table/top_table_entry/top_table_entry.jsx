@@ -29,9 +29,9 @@ const TopTableEntry = ({ tournamentID, playerEntry }) => {
         <div className="table-entry-player-name display-flex-row">
           {!playerEntry ? <p>Jogador</p> : <p>{playerEntry.name}</p>}
         </div>
-        <div className="table-entry-country display-flex-row">
+        {/* <div className="table-entry-country display-flex-row">
           {!playerEntry ? <p>Pais</p> : <p>{playerEntry.country}</p>}
-        </div>
+        </div> */}
         <div className="table-entry-deck-name display-flex-row">
           {!playerEntry ? <p>Deck</p> : <p>{playerEntry.deck.name}</p>}
         </div>

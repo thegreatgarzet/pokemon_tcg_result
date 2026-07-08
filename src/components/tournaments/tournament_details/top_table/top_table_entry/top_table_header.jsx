@@ -1,11 +1,12 @@
 import React from 'react'
-import { IoIosArrowDown } from "react-icons/io";
+import { FaCircle } from "react-icons/fa";
 import './top_table_entry.css'
 
 const TopTableHeader = () => {
   return (
     <div className='top-table-entry-header'>
             <div className="table-entry-arrow display-flex-row">
+              
             </div>
             <div className="table-entry-placing display-flex-row">
               <p>#</p>
@@ -13,9 +14,9 @@ const TopTableHeader = () => {
             <div className="table-entry-player-name display-flex-row">
               <p>Jogador</p>
             </div>
-            <div className="table-entry-country display-flex-row">
+            {/* <div className="table-entry-country display-flex-row">
               <p>Pais</p>
-            </div>
+            </div> */}
             <div className="table-entry-deck-name display-flex-row">
               <p>Deck</p>
             </div>

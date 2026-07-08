@@ -20,8 +20,8 @@ const TournamentWinner = ({playerEntry}) => {
                 {!playerEntry? <p>FULANO J.</p> : <p>{playerEntry.name}</p>} 
             </div>
             <div className="winner-info">
-                {!playerEntry? <p>Country</p> : <p>{playerEntry.country}</p>} 
-                <p>-</p>
+                {/* {!playerEntry? <p>Pais</p> : <p>{playerEntry.country}</p>} 
+                <p>-</p> */}
                 {!playerEntry? <p>Deck</p> : <p>{playerEntry.deck.name}</p>} 
                 <p>-</p>
                 {!playerEntry? <p>Placar</p> : <p>{getFormattedRecord(playerEntry.record)}</p>} 
