@@ -4,16 +4,26 @@
 
     border-radius: 10px;
     min-height: 20px;
-    min-width: 300px;
+    min-width: 350px;
+    width: 100%;
 }
 
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .top-table-container {
-    max-height: 515px;
+    max-height: 1000px;
     overflow-x: auto;
   }
+} */
+
+@media (max-width: 700px) {
+  .top-table-container-inner{
+    width: max-content;
+    min-width: 100%;
 }
+}
+
+
 
 .top-table-title{
     display: flex;

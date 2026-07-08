@@ -14,6 +14,12 @@
     font-weight: bold;
 }
 
+@media (max-width: 1100px) {
+  .filter-body {
+    width: 90%;
+  }
+}
+
 .players-icon{
     width: 25px;
     height: 25px;

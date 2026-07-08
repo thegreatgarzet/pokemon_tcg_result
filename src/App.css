@@ -29,5 +29,6 @@ button{
 @media (max-width: 1100px) {
   .tournament-display-area {
     flex-direction: column;
+    width: 90%;
   }
 }

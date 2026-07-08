@@ -39,8 +39,10 @@ const TopTableEntry = ({ tournamentID, playerEntry }) => {
           {!playerEntry ? <p>Placar</p> : <p>{getFormattedRecord(playerEntry.record)}</p>}
         </div>
       </div>
-      {expanded ? <DecklistDisplay player={playerEntry} openListLink={openPlayerProfileURL} /> : <div></div>}
-    </div>
+      <div>
+        {expanded ? <DecklistDisplay player={playerEntry} openListLink={openPlayerProfileURL} /> : <div></div>}
+      </div>
+      </div>
   )
 }
 

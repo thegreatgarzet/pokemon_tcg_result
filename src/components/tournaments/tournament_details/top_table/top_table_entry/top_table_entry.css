@@ -1,11 +1,9 @@
 .top-table-entry{
     display: flex;
     flex-direction: row;
-
-    justify-content: space-between;
     
     padding-right: 5px;
-
+    justify-content: space-around;
     border-bottom: 1px solid #272f37;
 
     font-weight: bold;
@@ -50,8 +48,12 @@
 
 .table-entry-player-name{
     width: 30%;
-    min-width: 125px;
+    min-width: 150px;
     color: white;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .table-entry-country{
@@ -61,14 +63,14 @@
 }
 
 .table-entry-deck-name{
-    min-width: 175px;
-    width: 42%;
+    min-width: 125px;
+    width: 20%;
     color: white;
 }
 
 .table-entry-record{
     width: 10%;
-    min-width: 42px;
+    min-width: 50px;
     color: #8f9aa5;
     justify-content: center;
 }
